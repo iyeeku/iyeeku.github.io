@@ -96,7 +96,7 @@
 <meta property="og:site_name" content="杨旭东的博客">
 <meta property="og:description" content="最近项目部署到Weblogic服务器上时，发现日志系统以及数据库记录的数据不对，与当前时间相差了12个小时，通过date -R命令发现服务器上的时间时区都是正确的，+0800 东八区。但是日志文件中的时间对比服务器的时间晚了12个小时。检查了机器时间设置正确，开始考虑是否是运行Weblogic的JAVA环境的时区不一致导致的。结果发现，果然是JVM的时区是美国纽约，导致的时间不一致的问题。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-11T12:41:30.847Z">
+<meta property="og:updated_time" content="2018-05-11T13:29:57.273Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java获取的时间与Linux系统时间不一致">
 <meta name="twitter:description" content="最近项目部署到Weblogic服务器上时，发现日志系统以及数据库记录的数据不对，与当前时间相差了12个小时，通过date -R命令发现服务器上的时间时区都是正确的，+0800 东八区。但是日志文件中的时间对比服务器的时间晚了12个小时。检查了机器时间设置正确，开始考虑是否是运行Weblogic的JAVA环境的时区不一致导致的。结果发现，果然是JVM的时区是美国纽约，导致的时间不一致的问题。">
@@ -513,31 +513,11 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-<span class="jiathis_txt">分享到：</span>
-<a class="jiathis_button_fav">收藏夹</a>
-<a class="jiathis_button_copy">复制网址</a>
-<a class="jiathis_button_email">邮件</a>
-<a class="jiathis_button_weixin">微信</a>
-<a class="jiathis_button_qzone">QQ空间</a>
-<a class="jiathis_button_tqq">腾讯微博</a>
-<a class="jiathis_button_douban">豆瓣</a>
-<a class="jiathis_button_share">一键分享</a>
-
-<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-var jiathis_config={
-  data_track_clickback:true,
-  summary:"",
-  shortUrl:false,
-  hideMore:false
-}
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
 </script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
-<!-- JiaThis Button END -->
+
       
     </div>
   </div>
